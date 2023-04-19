@@ -46,8 +46,9 @@ const projects = [
     description: "personal portfolio",
     techStack: ["ReactJS", "SASS"],
     github: "dd",
-    live: "eee",
-    apiDocumentation: "",
+    live: "https://personal-portfolio-covaci-edvin.vercel.app/",
+    apiDocumentation:
+      "https://github.com/covaci-edvin/personal-portfolio-covaci-edvin",
   },
 ];
 

@@ -5,7 +5,7 @@ const Footer = () => {
     <section className={classes.footer}>
       <div className={classes.footer__copy}>
         <span>&copy;</span>
-        <span>2021 All rights reserved.</span>
+        <span>2023 All rights reserved.</span>
       </div>
       <div className={classes.footer__contacts}>
         <a href="mailto:covaci.edvin@gmail.com">covaci.edvin@gmail.com</a>
