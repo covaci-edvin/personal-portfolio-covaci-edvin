@@ -1,0 +1,17 @@
+@use "../../../global-styles/mixins.scss";
+
+.work {
+  @include mixins.section-default-styling;
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  &__projects {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 3.2rem;
+  }
+}

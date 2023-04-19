@@ -1,0 +1,17 @@
+@use "../../../global-styles/mixins.scss";
+
+.education {
+  @include mixins.section-default-styling;
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  &__courses {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    gap: 3.2rem;
+  }
+}

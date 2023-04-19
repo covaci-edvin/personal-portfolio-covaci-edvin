@@ -1,0 +1,43 @@
+@use "../../../global-styles/mixins.scss";
+
+.container {
+  border: 1px solid var(--color-primary);
+  border-radius: 2.4rem;
+  margin-right: 3.2rem;
+  flex-grow: 1;
+  padding: 14.4rem 6.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow-container);
+
+  &__greeting {
+    font-size: 2.8rem;
+  }
+
+  &__name {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 1%;
+    @include mixins.text-background-gradient;
+  }
+
+  &__professions {
+    display: flex;
+    & > *:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  @include mixins.respond(phone) {
+    // width < 1200px
+    margin-right: 0;
+    order: 1;
+    align-items: center;
+    padding: 3.2rem 6.4rem;
+
+    & > *:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}

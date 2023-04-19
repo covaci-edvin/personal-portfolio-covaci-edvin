@@ -1,0 +1,54 @@
+@use "./global-styles/mixins.scss";
+
+:root {
+  font-family: "Comfortaa", cursive;
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  @include mixins.respond(tab-land) {
+    // width < 1200px
+    font-size: 56.25%;
+  }
+
+  @include mixins.respond(phone) {
+    // width < 1200px
+    font-size: 43.7%;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: 1px solid limegreen !important; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-primary-dark);
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}

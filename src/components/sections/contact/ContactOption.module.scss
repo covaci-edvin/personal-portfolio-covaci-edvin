@@ -1,0 +1,35 @@
+@use "../../../global-styles/mixins.scss";
+
+.contact-option {
+  &__container {
+    background-color: var(--color-primary-dark);
+    border-radius: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    box-shadow: var(--box-shadow-contact-cta-btn);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: var(--color-primary-dark-hover);
+      transform: translateY(-0.2rem);
+      box-shadow: var(--box-shadow-contact-cta-btn-hover);
+    }
+  }
+
+  &__icon {
+    width: 6rem;
+    height: 6rem;
+
+    @include mixins.respond(tab-port) {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    @include mixins.respond(phone) {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+}

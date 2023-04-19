@@ -1,0 +1,14 @@
+@use "../../../global-styles/mixins.scss";
+
+.experience {
+  @include mixins.section-default-styling;
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  &__body {
+    font-size: 1.8rem;
+  }
+}

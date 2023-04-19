@@ -1,0 +1,31 @@
+@use "../../../global-styles/mixins.scss";
+
+.contact {
+  @include mixins.section-default-styling;
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  &__body {
+    background-image: var(--gradient-dark);
+    border-radius: 2.4rem;
+    padding: 3.2rem 12.8rem;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    @include mixins.respond(tab-port) {
+      padding: 3.2rem 6.4rem;
+    }
+
+    @include mixins.respond(phone) {
+      padding: 3.2rem 6.4rem;
+    }
+    @include mixins.respond(phone-small) {
+      padding: 3.2rem 3.2rem;
+    }
+  }
+}

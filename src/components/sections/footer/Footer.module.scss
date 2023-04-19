@@ -1,0 +1,30 @@
+@use "../../../global-styles/mixins.scss";
+
+.footer {
+  @include mixins.section-default-styling;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  border-top: 1px solid var(--color-primary);
+  padding: 3.2rem 0;
+
+  @include mixins.respond(tab-port) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  &__copy {
+    color: var(--color-primary);
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+    a:link,
+    a:visited {
+      color: var(--color-primary);
+    }
+  }
+}

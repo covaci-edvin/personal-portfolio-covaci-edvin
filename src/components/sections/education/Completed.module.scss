@@ -1,0 +1,15 @@
+.completed {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: var(--color-primary-dark);
+  border-radius: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    cursor: auto;
+  }
+}

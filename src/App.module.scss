@@ -1,0 +1,13 @@
+@use "./global-styles/mixins.scss";
+
+.App {
+  @include mixins.respond(tab-land) {
+    // width < 1200px
+    margin: 0 3.2rem;
+  }
+
+  @include mixins.respond(phone) {
+    // width < 1200px
+    margin: 0 1.6rem;
+  }
+}

@@ -1,0 +1,20 @@
+@use "../../../global-styles/mixins.scss";
+
+.card {
+  height: 43.2rem;
+  border-radius: 2.4rem;
+  overflow: hidden;
+  box-shadow: var(--box-shadow-container);
+  flex-basis: 44.8rem;
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @include mixins.respond(phone) {
+    margin-bottom: 1.6rem;
+    flex-basis: 32rem;
+  }
+}
