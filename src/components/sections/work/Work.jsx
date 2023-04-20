@@ -18,7 +18,7 @@ const projects = [
     description: "practice project",
     techStack: ["HTML", "CSS", "SASS"],
     github: "https://github.com/covaci-edvin/trillo-traveling-project",
-    live: "https://expense-tracker-react-practice-ed.netlify.app",
+    live: "https://trillo-traveling.netlify.app/",
     apiDocumentation: "",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     description: "practice project",
     techStack: ["ReactJS"],
     github: "https://github.com/covaci-edvin/expense-tracker",
-    live: "https://trillo-traveling.netlify.app/",
+    live: "https://expense-tracker-react-practice-ed.netlify.app",
     apiDocumentation: "",
   },
   {
