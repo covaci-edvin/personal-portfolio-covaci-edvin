@@ -49,6 +49,15 @@ const projects = [
     live: "https://personal-portfolio-covaci-edvin.vercel.app/",
     apiDocumentation: "",
   },
+  {
+    id: 6,
+    title: "Uber Clone",
+    description: "practice project",
+    techStack: ["React Native", "TailwindCSS"],
+    github: "https://github.com/covaci-edvin/uber-clone",
+    live: "",
+    apiDocumentation: "",
+  },
 ];
 
 const Work = () => {
