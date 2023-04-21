@@ -112,6 +112,7 @@ export default function NavBar() {
           toggled={isOpen}
           toggle={setOpen}
           onToggle={toggleMenuHandler}
+          size={25}
         />
       )}
     </nav>
