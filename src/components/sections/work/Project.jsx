@@ -2,6 +2,7 @@ import classes from "./Project.module.scss";
 import githubIcon from "../../../assets/github.svg";
 import postmanIcon from "../../../assets/postman.svg";
 import liveIcon from "../../../assets/link.svg";
+import fimgaIcon from "../../../assets/figma.svg";
 import Link from "./Link";
 
 const Project = (props) => {
@@ -25,6 +26,7 @@ const Project = (props) => {
           <Link icon={postmanIcon} url={props.apiDocumentationLink} />
         )}
         {props.liveLink && <Link icon={liveIcon} url={props.liveLink} />}
+        {props.figmaLink && <Link icon={fimgaIcon} url={props.figmaLink} />}
       </div>
     </div>
   );

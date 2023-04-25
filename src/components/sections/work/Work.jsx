@@ -11,6 +11,7 @@ const projects = [
     github: "https://github.com/covaci-edvin/natours-project",
     live: "https://natours-advaced-css-sass-practice.netlify.app/",
     apiDocumentation: "",
+    figma: "",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const projects = [
     github: "https://github.com/covaci-edvin/trillo-traveling-project",
     live: "https://trillo-traveling.netlify.app/",
     apiDocumentation: "",
+    figma: "",
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const projects = [
     github: "https://github.com/covaci-edvin/expense-tracker",
     live: "https://expense-tracker-react-practice-ed.netlify.app",
     apiDocumentation: "",
+    figma: "",
   },
   {
     id: 4,
@@ -39,15 +42,18 @@ const projects = [
     live: "",
     apiDocumentation:
       "https://documenter.getpostman.com/view/20249850/2s935vjK8s",
+    figma: "",
   },
   {
     id: 5,
-    title: "Personal Portfolio",
-    description: "personal portfolio",
-    techStack: ["ReactJS", "SASS"],
-    github: "https://github.com/covaci-edvin/personal-portfolio-covaci-edvin",
-    live: "https://personal-portfolio-covaci-edvin.vercel.app/",
+    title: "Group Go Design",
+    description: "UI/UX Design for the license project",
+    techStack: ["Figma", "UI/UX Design"],
+    github: "",
+    live: "",
     apiDocumentation: "",
+    figma:
+      "https://www.figma.com/file/Pf5Fl7Mj5plomkpvFQFiNP/Untitled?node-id=0%3A1&t=SKry51fxu2qARBEE-1",
   },
   {
     id: 6,
@@ -57,6 +63,28 @@ const projects = [
     github: "https://github.com/covaci-edvin/uber-clone",
     live: "",
     apiDocumentation: "",
+    figma: "",
+  },
+  {
+    id: 8,
+    title: "Personal Portfolio",
+    description: "personal portfolio",
+    techStack: ["ReactJS", "SASS"],
+    github: "https://github.com/covaci-edvin/personal-portfolio-covaci-edvin",
+    live: "https://personal-portfolio-covaci-edvin.vercel.app/",
+    apiDocumentation: "",
+    figma: "",
+  },
+  {
+    id: 9,
+    title: "Portfolio Design",
+    description: "UI/UX for personal portfolio",
+    techStack: ["Figma", "UI/UX Design"],
+    github: "",
+    live: "",
+    apiDocumentation: "",
+    figma:
+      "https://www.figma.com/file/FXfn0hEOP03aAvHvqjgVXh/Untitled?node-id=0%3A1&t=IPLlmqkiKjACuenK-1",
   },
 ];
 
@@ -76,6 +104,7 @@ const Work = () => {
             githubLink={project.github}
             liveLink={project.live}
             apiDocumentationLink={project.apiDocumentation}
+            figmaLink={project.figma}
           />
         ))}
       </div>
