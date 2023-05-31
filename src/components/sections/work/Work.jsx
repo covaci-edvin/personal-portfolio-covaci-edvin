@@ -5,6 +5,17 @@ import { Element } from "react-scroll";
 const projects = [
   {
     id: 1,
+    title: "TW Portfolio Design",
+    description: "Elias's Portfolio Design",
+    techStack: ["Figma", "UI/UX Design"],
+    github: "",
+    live: "",
+    apiDocumentation: "",
+    figma:
+      "https://www.figma.com/file/VyIB8EalExjwYmtYzy4J0y/Untitled?type=design&node-id=0%3A1&t=JyGJsFMMw6tiBjVG-1",
+  },
+  {
+    id: 2,
     title: "Personal Portfolio",
     description: "personal portfolio",
     techStack: ["ReactJS", "SASS"],
@@ -14,7 +25,7 @@ const projects = [
     figma: "",
   },
   {
-    id: 2,
+    id: 3,
     title: "Portfolio Design",
     description: "UI/UX for personal portfolio",
     techStack: ["Figma", "UI/UX Design"],
@@ -25,7 +36,7 @@ const projects = [
       "https://www.figma.com/file/FXfn0hEOP03aAvHvqjgVXh/Untitled?node-id=0%3A1&t=IPLlmqkiKjACuenK-1",
   },
   {
-    id: 3,
+    id: 4,
     title: "Group Go API",
     description: "API for the license project",
     techStack: ["NodeJS", "MongoDB"],
@@ -36,7 +47,7 @@ const projects = [
     figma: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "Group Go Design",
     description: "UI/UX Design for the license project",
     techStack: ["Figma", "UI/UX Design"],
@@ -47,7 +58,7 @@ const projects = [
       "https://www.figma.com/file/Pf5Fl7Mj5plomkpvFQFiNP/Untitled?node-id=0%3A1&t=SKry51fxu2qARBEE-1",
   },
   {
-    id: 5,
+    id: 6,
     title: "Group Go App",
     description: "License project built using RN",
     techStack: ["React Native", "Redux"],
@@ -57,7 +68,7 @@ const projects = [
     figma: "",
   },
   {
-    id: 6,
+    id: 7,
     title: "Uber Clone",
     description: "practice project",
     techStack: ["React Native", "TailwindCSS"],
@@ -67,7 +78,7 @@ const projects = [
     figma: "",
   },
   {
-    id: 7,
+    id: 8,
     title: "Natours",
     description: "practice project",
     techStack: ["HTML", "CSS", "SASS"],
@@ -77,7 +88,7 @@ const projects = [
     figma: "",
   },
   {
-    id: 8,
+    id: 9,
     title: "Trillo",
     description: "practice project",
     techStack: ["HTML", "CSS", "SASS"],
