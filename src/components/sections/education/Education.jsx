@@ -10,7 +10,7 @@ const courses = [
     schoolType: "university",
     schoolLink: "https://utm.md/en/",
     date: "2019 - 2023",
-    inProgress: true,
+    inProgress: false,
     certificateLink: "",
   },
   {
